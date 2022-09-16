@@ -1,17 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 
-html {
-  scroll-behavior: smooth;
-
-}
-
 * {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 body,
@@ -25,14 +18,6 @@ a:hover,
 a:visited {
   color: unset;
   text-decoration: none;
-}
-
-header {
-  background: linear-gradient(180deg, #102347 0%, #000 100%);
-  height: 220px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .dsmeta-container {
